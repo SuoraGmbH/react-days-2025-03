@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`<UserTable> > loading spinner matches snapshot‰ 1`] = `
+exports[`<UserTable> > loading spinner matches snapshot 1`] = `
 <div>
   <div
     class="p-6 space-y-4"

@@ -7,7 +7,7 @@ describe("<UserTable>", () => {
     render(<UserTable />);
   });
 
-  test("loading spinner matches snapshot‰", async () => {
+  test("loading spinner matches snapshot", async () => {
     const result = render(<UserTable />);
 
     expect(result.container).toMatchSnapshot();
