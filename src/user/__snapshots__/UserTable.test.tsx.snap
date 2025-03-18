@@ -59,3 +59,399 @@ exports[`<UserTable> > loading spinner matches snapshot 1`] = `
   </div>
 </div>
 `;
+
+exports[`<UserTable> > rendered table matches snapshot 1`] = `
+<div>
+  <div
+    class="p-6 space-y-4"
+  >
+    <h1
+      class="text-2xl font-bold"
+    >
+      User Dashboard
+    </h1>
+    <div
+      class="flex space-x-2"
+    >
+      <button
+        class="px-3 py-2 rounded border bg-blue-500 text-white"
+      >
+        All
+      </button>
+      <button
+        class="px-3 py-2 rounded border border-gray-300 bg-white text-black hover:bg-gray-100"
+      >
+        A
+      </button>
+      <button
+        class="px-3 py-2 rounded border border-gray-300 bg-white text-black hover:bg-gray-100"
+      >
+        B
+      </button>
+      <button
+        class="px-3 py-2 rounded border border-gray-300 bg-white text-black hover:bg-gray-100"
+      >
+        C
+      </button>
+      <button
+        class="px-3 py-2 rounded border border-gray-300 bg-white text-black hover:bg-gray-100"
+      >
+        D
+      </button>
+    </div>
+    <button
+      class="mt-2 px-3 py-2 border border-gray-300 rounded bg-gray-100 hover:bg-gray-200"
+    >
+      Sort by Name
+       
+      <svg
+        class="lucide lucide-chevron-up"
+        fill="none"
+        height="16"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="m18 15-6-6-6 6"
+        />
+      </svg>
+    </button>
+    <div
+      class="mt-4 border border-gray-300 rounded overflow-hidden"
+    >
+      <table
+        class="w-full border-collapse"
+      >
+        <thead>
+          <tr
+            class="bg-gray-100 text-left"
+          >
+            <th
+              class="px-4 py-2 border-b"
+            >
+              ID
+            </th>
+            <th
+              class="px-4 py-2 border-b"
+            >
+              Name
+            </th>
+            <th
+              class="px-4 py-2 border-b"
+            >
+              Email
+            </th>
+            <th
+              class="px-4 py-2 border-b"
+            >
+              Company
+            </th>
+            <th
+              class="px-4 py-2 border-b"
+            >
+              City
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="border-b"
+          >
+            <td
+              class="px-4 py-2"
+            >
+              5
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Chelsey Dietrich
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Lucio_Hettinger@annie.ca
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Keebler LLC
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Roscoeview
+            </td>
+          </tr>
+          <tr
+            class="border-b"
+          >
+            <td
+              class="px-4 py-2"
+            >
+              10
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Clementina DuBuque
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Rey.Padberg@karina.biz
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Hoeger LLC
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Lebsackbury
+            </td>
+          </tr>
+          <tr
+            class="border-b"
+          >
+            <td
+              class="px-4 py-2"
+            >
+              3
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Clementine Bauch
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Nathan@yesenia.net
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Romaguera-Jacobson
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              McKenziehaven
+            </td>
+          </tr>
+          <tr
+            class="border-b"
+          >
+            <td
+              class="px-4 py-2"
+            >
+              2
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Ervin Howell
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Shanna@melissa.tv
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Deckow-Crist
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Wisokyburgh
+            </td>
+          </tr>
+          <tr
+            class="border-b"
+          >
+            <td
+              class="px-4 py-2"
+            >
+              9
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Glenna Reichert
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Chaim_McDermott@dana.io
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Yost and Sons
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Bartholomebury
+            </td>
+          </tr>
+          <tr
+            class="border-b"
+          >
+            <td
+              class="px-4 py-2"
+            >
+              7
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Kurtis Weissnat
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Telly.Hoeger@billy.biz
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Johns Group
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Howemouth
+            </td>
+          </tr>
+          <tr
+            class="border-b"
+          >
+            <td
+              class="px-4 py-2"
+            >
+              1
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Leanne Graham
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Sincere@april.biz
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Romaguera-Crona
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Gwenborough
+            </td>
+          </tr>
+          <tr
+            class="border-b"
+          >
+            <td
+              class="px-4 py-2"
+            >
+              6
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Mrs. Dennis Schulist
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Karley_Dach@jasper.info
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Considine-Lockman
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              South Christy
+            </td>
+          </tr>
+          <tr
+            class="border-b"
+          >
+            <td
+              class="px-4 py-2"
+            >
+              8
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Nicholas Runolfsdottir V
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Sherwood@rosamond.me
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Abernathy Group
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Aliyaview
+            </td>
+          </tr>
+          <tr
+            class="border-b"
+          >
+            <td
+              class="px-4 py-2"
+            >
+              4
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Patricia Lebsack
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Julianne.OConner@kory.org
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              Robel-Corkery
+            </td>
+            <td
+              class="px-4 py-2"
+            >
+              South Elvis
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
